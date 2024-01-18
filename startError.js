@@ -11,3 +11,9 @@ function startError() {
     y();
  }
  module.exports= startError
+
+ // adding a reference error in Js
+function startError() {
+    console.log(nonExistentVariable);
+ }
+ module.exports= startError
