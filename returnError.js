@@ -9,4 +9,4 @@ function catchError(fn){
     }
     return false
 }
-
+module.exports = returnError
