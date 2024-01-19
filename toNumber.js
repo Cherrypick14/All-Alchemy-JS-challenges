@@ -4,3 +4,4 @@ function toNumber(string){
     const parsedNumber = +string
     return isNaN(parsedNumber) ? 0 : parsedNumber
 }
+module.exports = toNumber.js
